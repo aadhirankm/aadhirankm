@@ -11,9 +11,7 @@
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
     "start": "npm --prefix server start"
   },
-  "dependencies": {
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-scripts": "5.0.1"
-}
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
 }
