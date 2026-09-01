@@ -9,7 +9,7 @@
     "dev:api": "npm --prefix server run dev",
     "dev:web": "npm --prefix client run dev",
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
-    "build": "react-scripts build",
+    "build": "npm run build",
     "start": "npm --prefix server start"
   },
   "devDependencies": {
