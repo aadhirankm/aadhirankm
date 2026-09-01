@@ -12,9 +12,12 @@
     "build": "npm run build",
     "start": "npm --prefix server start"
   },
-  "devDependencies": {
-    "concurrently": "^9.1.0"
-  },
+  "dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "build": "react-scripts build",
+  "react-scripts": "5.0.1"
+},
   "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
